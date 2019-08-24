@@ -3,8 +3,9 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
-  - source: /Rohit.txt
+  - source: /logo.jpg
     destination: /var/www/html/
+    
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
